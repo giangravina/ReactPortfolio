@@ -14,8 +14,22 @@
     align-items: center;
 }
 
+.projects-intro{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
 .projects-intro h1{
     padding: 0 0 .5em 0;
+}
+
+.projects-intro{
+    font-size: 15px;
+}
+
+.projects-intro .disclaimer{
+    padding: 1em 0 0 0;
 }
 
 .projects-colz{

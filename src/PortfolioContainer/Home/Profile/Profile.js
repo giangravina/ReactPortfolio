@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import './Profile.css';
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -8,23 +8,23 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-              <div className="colz-icon">                
-            <a href="#">
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-google-plus-square"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-youtube-square"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-twitter-square"></i>
-            </a>
-              </div>
+            <div className="colz-icon">
+              <a href="#">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-google-plus-square"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-youtube-square"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-twitter-square"></i>
+              </a>
+            </div>
           </div>
 
           <div className="profile-details-name">
@@ -70,8 +70,7 @@ export default function Profile() {
           </div>
         </div>
         <div className="profile-picture">
-            <div className="profile-picture-background">
-            </div>
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>

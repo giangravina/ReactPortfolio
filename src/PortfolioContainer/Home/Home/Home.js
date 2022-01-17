@@ -3,11 +3,13 @@ import Profile from "../Profile/Profile";
 import Footer from "../Footer/Footer";
 import Projects from "../Projects/Projects";
 import "./Home.css";
+import Navigation from "../Navigation/Navigation";
 
 export default function Home() {
   return (
     <div className="page-container">
       <div className="home-container">
+        <Navigation />
         <Profile />
         <Footer />
       </div>
