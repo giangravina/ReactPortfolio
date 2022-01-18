@@ -21,7 +21,21 @@
 }
 
 .projects-intro h1{
-    padding: 0 0 .5em 0;
+    padding: 0 0 .4em 0;
+    font-family: 'Poppins SemiBold';
+}
+.projects-intro p{
+    padding: 2em 0 .4em 0;
+    font-family: 'Poppins SemiBold';
+}
+
+.title-border{
+    border-bottom: 5px solid var( --dark-orange);
+    width: 80px;
+    display: block;
+    margin: auto;
+    padding: 0 0 .4em 0;
+
 }
 
 .projects-intro{
@@ -33,7 +47,7 @@
 }
 
 .projects-colz{
-    padding: 3em 0 0 0;
+    padding: 4em 0 0 0;
 }
 
 .row-1, .row-2 {

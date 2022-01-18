@@ -1,5 +1,13 @@
-.me-auto a.nav-link{
+a.home-link.nav-link,
+a.projects-link.nav-link,
+a.contact-link.nav-link {
     color: #fff !important;
+    font-size: 15px;
+}
+.resume-link.nav-link {
+    color: var(--dark-orange) !important;
+    font-size: 16px;
+
 }
 
 .navbar-expand .navbar-nav .nav-link {
@@ -9,6 +17,7 @@
 
 .me-auto a.nav-link:hover{
     transform: scale(1.2);
+    color: var( --dark-orange) !important;
 }
 
 .navbar {
@@ -17,4 +26,8 @@
     z-index: 1000;
     width: 100%;
     border-radius: 0px !important;
+}
+
+.resume {
+    color: var(--dark-orange);
 }

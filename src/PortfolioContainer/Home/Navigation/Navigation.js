@@ -10,10 +10,10 @@ export default function Navigation() {
       <Navbar>
         <Container>
           <Nav className="me-auto nav-links">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-            <Nav.Link href="#pricing">Resume</Nav.Link>
+            <Nav.Link className="home-link" href="#home">Home</Nav.Link>
+            <Nav.Link className="projects-link" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="contact-link" href="#contact">Contact</Nav.Link>
+            <Nav.Link className="resume-link" href="#resume">Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

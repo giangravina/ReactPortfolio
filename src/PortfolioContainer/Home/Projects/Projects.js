@@ -13,6 +13,7 @@ export default function Projects() {
         <div className="project-details">
           <div className="projects-intro">
             <h1>Projects</h1>
+            <span className="title-border"></span>
             <p>
               Below is a combination of professional and personal projects that
               I've created. Apart from these projects, I've also had the
