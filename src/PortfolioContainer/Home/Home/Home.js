@@ -5,6 +5,7 @@ import Projects from "../Projects/Projects";
 import "./Home.css";
 import Navigation from "../Navigation/Navigation";
 import About from "../About/About";
+import BottomFooter from "../BottomFooter/BottomFooter";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div className="about-container">
         <About />
+      </div>
+      <div className="bottom-container">
+      <BottomFooter />
       </div>
     </div>
   );

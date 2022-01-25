@@ -27,6 +27,7 @@
 .projects-intro p{
     padding: 2em 0 .4em 0;
     font-family: 'Poppins SemiBold';
+    line-height: 1.5;
 }
 
 .title-border{
@@ -44,6 +45,7 @@
 
 .projects-intro .disclaimer{
     padding: 1em 0 0 0;
+    line-height: 1.5;
 }
 
 .projects-colz{

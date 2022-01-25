@@ -1,0 +1,49 @@
+
+.about-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    background-color: #24263B;
+    padding: 2em 0 2em 0;
+}
+
+.about-parent{
+    display: flex;
+    align-items: center;
+}
+
+.about-intro{
+    display: block;
+    margin: auto;
+}
+
+.about-intro h1{
+    padding: 0 0 .4em 0;
+    font-family: 'Poppins SemiBold';
+    color: #fff;
+}
+.about-intro p{
+    padding: 2em 0 .4em 0;
+    font-family: 'Poppins SemiBold';
+    color: #fff;
+}
+
+.title-border{
+    border-bottom: 5px solid var( --dark-orange);
+    width: 80px;
+    display: block;
+    margin: auto;
+    padding: 0 0 .4em 0;
+
+}
+
+.about-intro{
+    font-size: 15px;
+}
+
+.about-intro .disclaimer{
+    padding: 1em 0 0 0;
+    color: #fff;
+}
