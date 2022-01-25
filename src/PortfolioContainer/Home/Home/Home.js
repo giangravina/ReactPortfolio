@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Projects from "../Projects/Projects";
 import "./Home.css";
 import Navigation from "../Navigation/Navigation";
+import About from "../About/About";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       </div>
       <div className="projects-container">
         <Projects />
+      </div>
+      <div className="about-container">
+        <About />
       </div>
     </div>
   );
